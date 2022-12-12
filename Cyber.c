@@ -9,7 +9,7 @@ typedef struct
 	char name[50]; char hour[50];char  min[50];char sec[50];char month[50];char year[50];char day[50];char date[50];
 }record;
 char *name="Admin";
-char *password="ttcmp123";
+char *password="cheese";
 void choices(int ch); void modify_record();void check_record();void file_manager();
 void login_page();void username_password_change();
 void admin_menu();
